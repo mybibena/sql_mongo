@@ -1,0 +1,4 @@
+#!/usr/bin/php
+<?php
+
+include "sql_mongo.php";

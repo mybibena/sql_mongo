@@ -1,0 +1,34 @@
+{
+	"name" : "mybibena/sql_mongo",
+	"type" : "application",
+	"description" : "Alternative CLI MongoDB client with SQL-like syntax",
+	"keywords" : [
+		"SQL",
+		"Mongo",
+		"MongoDB",
+		"PHP",
+		"CLI"
+	],
+	"homepage" : "https://github.com/mybibena/sql_mongo",
+	"authors" : [{
+			"name" : "Mandrikov Andrey",
+			"email" : "mybibena@gmail.com",
+			"role" : "Owner"
+		}
+	],
+	"autoload" : {
+		"psr-0" : {
+			"SQLMongo\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"SQLMongo\\Test\\" : "Test/Cases/"
+		}
+	},
+	"require" : {
+		"php" : ">=5.6",
+		"mongodb/mongodb" : "^1.0.2",
+		"phpunit/phpunit" : "^4.0.14"
+	}
+}
